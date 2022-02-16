@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FrancoProvaComune5/1.0.0": {
+        "runtime": {
+          "FrancoProvaComune5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FrancoProvaComune5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
