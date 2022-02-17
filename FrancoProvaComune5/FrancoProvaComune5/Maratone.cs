@@ -47,9 +47,44 @@ namespace FrancoProvaComune5
                 }
             }
         }
+
+        public int CalcolaTempoMinuti(string nomeCittà, string nomeAtleta) 
+        {
+            string tempo = "";
+            int ore = 0;
+            int minuti = 0;
+            foreach (var maratona in elencoMaratone)
+            {
+                if (maratona.nomeAtleta == nomeAtleta && maratona.cittàMaratona == nomeCittà)
+                {
+                    tempo = maratona.tempoImpiegato;
+                }
+            }
+
+            ore = int.Parse(tempo.Substring(0,1));
+            minuti = int.Parse(tempo.Substring(2, 2));
+
+
+            return (ore * 60) + minuti;
+        }
+
+
+
+        public string CercaAtletaPerCittà(string titolo)
+        {
+            string artista = titolo + "--NON TROVATO--";
+
+            foreach (var brano in elencoBrani)
+            {
+                if (brano.TitoloBrano == titolo)
+                {
+                    artista = brano.NomeArtista;
+                }
+            }
+
+            return artista;
+        }
+
+
     }
 }
-
-   
-
-                

@@ -33,5 +33,21 @@ namespace FrancoProvaComune5
             maratone.LeggiDati();
             DgMaratona.Items.Refresh();
         }
+
+        private void btnTempoInMinuti_Click(object sender, RoutedEventArgs e)
+        {
+            string nomeAtleta = txtNomeAtleta.Text;
+            string nomeCittà = txtNomeCittà.Text;
+
+            int durata = maratone.CalcolaTempoMinuti(nomeCittà, nomeAtleta);
+            lblTempoFinale.Content = durata;
+
+          
+        }
+
+        private void btnCercaAtletiPerCittà_Click(object sender, RoutedEventArgs e)
+        {
+            string nomeCittà = txtNomeCittà.Text;
+        }
     }
 }

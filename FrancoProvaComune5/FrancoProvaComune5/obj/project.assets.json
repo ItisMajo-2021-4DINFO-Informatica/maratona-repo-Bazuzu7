@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\FrancoProvaComune5\\FrancoProvaComune5\\FrancoProvaComune5.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\maratona-repo-Bazuzu7\\FrancoProvaComune5\\FrancoProvaComune5\\FrancoProvaComune5.csproj",
       "projectName": "FrancoProvaComune5",
-      "projectPath": "C:\\Users\\Utente\\Desktop\\FrancoProvaComune5\\FrancoProvaComune5\\FrancoProvaComune5.csproj",
+      "projectPath": "C:\\Users\\Utente\\Desktop\\maratona-repo-Bazuzu7\\FrancoProvaComune5\\FrancoProvaComune5\\FrancoProvaComune5.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\Desktop\\FrancoProvaComune5\\FrancoProvaComune5\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\Desktop\\maratona-repo-Bazuzu7\\FrancoProvaComune5\\FrancoProvaComune5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
